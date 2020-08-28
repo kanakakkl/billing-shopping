@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carbanio</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://dev-in-ap.carbanio.com/images/fav_new.png">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="./shopping_files/main.css" media="all">
+    <!-- jquery js -->
+    <script type="text/javascript" src="./shopping_files/jquery.min.js"></script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="./shopping_files/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./shopping_files/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./shopping_files/billingaddress.css">
+    <style>
+        .title {
+            font-size: 36px;
+            padding: 20px;
+            color: #636b6f;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 100;
+            text-align: center;
+            margin: 0;
+            margin: 50px;
+        }
+
+        .footerCls {
+            position: absolute;
+            bottom: 0px;
+            margin: auto;
+            width: 100%;
+        }
+    </style>
+    <style>
+        body {
+            font-family: "Open Sans" !important;
+            color: #707c96 !important;
+            background-color: #fdfdff !important;
+        }
+
+        section {
+            display: flex;
+            /*flex-flow: row wrap;*/
+        }
+
+        section>div {
+            flex: 1;
+            padding: 0.5rem;
+        }
+
+        label {
+            height: 100%;
+            display: block;
+            background: white;
+            border-radius: 1px;
+            padding: 5px 10px 5px;
+            margin-bottom: 0;
+            text-align: center;
+            box-shadow: 0px 3px 10px -2px hsla(150, 5%, 65%, 0.5);
+            position: relative;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        .cont-padd {
+            padding-top: 15px !important;
+        }
+
+        .comm-titl {
+            font-size: 12px;
+            font-weight: 800;
+        }
+
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: grey;
+            border-radius: 4px;
+        }
+
+        .prod_name {
+            color: #183068 !important;
+            text-decoration: underline;
+            font-weight: 600;
+        }
+
+        .prod_inf {
+            color: #696D70;
+        }
+    </style>
+</head>
+
+<body cz-shortcut-listen="true">
+    <!-- Header -->
+    <div class="main-navigation ">
+        <nav class="navbar navbar-inverse navbar-fixed-top headercls">
+            <div class="container clearfx ">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="https://in.carbanio.com/" class="logo navbar-brand ">
+                        <img src="./shopping_files/images/Logo.svg" alt="xyz" />
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://dev-in-ap.carbanio.com/" target="_blank">Carbanio.com</a></li>
+                        <li class="dropdown">
+                            <a href="https://dev-in-ap.carbanio.com/pending-approvals/40b9GJj1161#">
+                                <span>Hi Loreumsup</span>&nbsp;
+                                <span class="caret" style="margin-top: 8px;float: right;color: #000"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://dev-in-ap.carbanio.com/dashboard" target="_blank"><i
+                                            class="fa fa-tachometer"></i>
+                                        My Dashboard</a>
+                                </li>
+                                <li class="divider"></li>
+                                <li>
+                                    <a href="https://dev-in-ap.carbanio.com/logout" id="logout">
+                                        <i class="fa fa-unlock-alt"></i> Logout
+                                    </a>
+                                    <form id="logout-form" action="https://dev-in-ap.carbanio.com/logout" method="POST"
+                                        style="display: none;">
+                                        <input type="hidden" name="_token"
+                                            value="ANKo35UQEiY7NxKenOKGTEdbBAeVEbSXiicNAOAu">
+                                    </form>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container billing_maincontainer">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="card billingcard">
+                    <div class="card-body billingbody">
+                        <div>
+                            <div class="card-title billingtitle"><img class="billingImg" src="./img/billing_icon.svg"
+                                    alt="xyz" />Billing Address For Tax Invoice</div>
+                            <div class="billingcaption">Edit if there is changes in the address or Proceed to continue.
+                            </div>
+                        </div>
+
+                        <div class="card-text billingSub">
+                            <div class="billingSubTitle">Innovative Chemical Interchange pvt ltd.</div>
+                            <div class="billingSubAddr">
+                                Plot No. 17, No. 101, Sai Vaishnavi Residency, Nizampet X Roads,<br />
+                                Sardar Patel Nagar Rd, Kukatpally
+                                Hyderabad, Telangana 500085.
+                            </div>
+                            <div class="billingSubGst">GSTIN: 12334567889</div>
+                            <div>
+                                <a href="#" class="btn btn-proceed">PROCEED</a>
+                                <a href="#" class="btn btn-edit">EDIT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card pricecard">
+                    <div class="card-body">
+                        <div class="card-title cardheader">Price Summary</div>
+                        <div class="card-text cardtext">
+                            <div class="subHeaders">
+                                Sub Total:
+                                <div class="subVals">₹2025.0</div>
+                            </div>
+                            <div class="subHeaders">
+                                Service Charge:
+                                <div class="subVals">₹202.25</div>
+                            </div>
+                            <div class="subHeaders">
+                                Applicable Tax on SC:
+                                <div class="subVals">₹20.0</div>
+                            </div>
+                            <div class="subHeaders">
+                                Shipping Fee:
+                                <div class="subVals">₹200.00</div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="totalHeaders">
+                                Total Payable
+                                <div id="totalPrice" val='2225.50' class="subVals">₹2225.50</div>
+                            </div>
+                        </div>
+                        <div class="placebtnDiv">
+                            <button type="button" data-toggle="modal" data-target="#supervisorModal"
+                                class="btn btn-primary btn-md btn-block placebtn disabled">PLACE ORDER</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

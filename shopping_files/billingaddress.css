@@ -1,0 +1,111 @@
+.billing_maincontainer{
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+.billingcard{
+    border: solid 0.5px #e5e5e5;
+    background-color: #ffffff;
+}
+
+.billingbody{
+    padding: 20px;
+}
+
+.billingtitle{
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #110b3f;
+    text-transform: uppercase;
+}
+
+.billingImg{
+    margin-right: 9px;
+    margin-top: -4px;
+}
+
+.billingcaption{
+  font-size: 13px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #707c96;
+  margin-left: 4.6%;
+}
+
+.billingSub{
+    border: dashed 1px #979dac;
+    background-color: #ffffff;
+    padding: 14px;
+    max-width: 90%;
+    margin: 11px 0px 10px 32px;
+}
+
+.billingSubTitle{
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: 0.27px;
+    text-align: left;
+    color: #110b3f;
+}
+
+.billingSubAddr{
+        font-size: 14px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.57;
+        letter-spacing: normal;
+        text-align: left;
+        color: #707c96;
+        margin: 10px 0px;
+}
+
+.billingSubGst{
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: 0.24px;
+    text-align: left;
+    color: #707c96;
+}
+
+.btn-proceed, .btn-proceed:hover, .btn-proceed:active, .btn-proceed:focus{
+    border-radius: 4px;
+    background-color: #5bb701;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: 0.21px;
+    text-align: left;
+    color: #ffffff;
+    padding: 7px 40px;
+}
+
+.btn-edit, .btn-edit:active, .btn-edit:hover, .btn-edit:focus{
+    border-radius: 4px;
+    border: solid 1px #5bb701;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: 0.21px;
+    text-align: left;
+    color: #5bb701;
+}
